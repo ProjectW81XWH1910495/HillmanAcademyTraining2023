@@ -1,0 +1,11 @@
+L2,batch_size,dec,drate,epochs,hacti,iacti,idim,kinit,lrate,ls,ltype,momen,mstruct,oacti,opti
+0.24,781,0.068,0.18,56,softmax,softmax,20,constant,0.244,binary_crossentropy,3,0.41,"(388, 185, 61, 1)",sigmoid,adam
+0.225,487,0.077,0.14,245,relu,tanh,20,constant,0.002,binary_crossentropy,3,0.57,"(470, 347, 502, 261, 1)",sigmoid,adam
+0.293,591,0.251,0.33,524,relu,sigmoid,20,he_uniform,0.129,binary_crossentropy,3,0.22,"(772, 1)",sigmoid,Nadam
+0.052,463,0.154,0.22,95,relu,softmax,20,glorot_normal,0.147,binary_crossentropy,3,0.21,"(746, 827, 546, 794, 1)",sigmoid,Nadam
+0.011,429,0.147,0.53,776,relu,softmax,20,he_normal,0.076,binary_crossentropy,3,0.71,"(500, 185, 1)",sigmoid,Nadam
+0.068,213,0.236,0.36,581,softmax,tanh,20,he_normal,0.201,binary_crossentropy,3,0.87,"(580, 594, 736, 1)",sigmoid,Adagrad
+0.119,427,0.227,0.62,977,softmax,relu,20,glorot_uniform,0.048,binary_crossentropy,3,0.4,"(265, 255, 1)",sigmoid,Adagrad
+0.09,871,0.034,0.33,938,tanh,sigmoid,20,glorot_normal,0.104,binary_crossentropy,3,0.84,"(750, 307, 1)",sigmoid,adam
+0.019,611,0.15,0.29,875,tanh,relu,20,glorot_uniform,0.001,binary_crossentropy,3,0.69,"(409, 653, 1)",sigmoid,adam
+0.03,321,0.18,0.0,104,tanh,tanh,20,he_uniform,0.266,binary_crossentropy,3,0.24,"(318, 449, 1)",sigmoid,Adagrad
