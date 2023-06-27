@@ -1,0 +1,11 @@
+L1,L2,dec,drate,epochs,hacti,iacti,idim,kinit,lrate,ls,ltype,momen,mstruct,oacti,opti
+0.221,0.126,0.104,0.24,296,tanh,tanh,20,glorot_uniform,0.193,binary_crossentropy,3,0.59,"(700, 538, 268, 85, 1)",sigmoid,SGD
+0.134,0.169,0.099,0.54,587,relu,sigmoid,20,glorot_uniform,0.278,binary_crossentropy,3,0.18,"(821, 5, 1)",sigmoid,SGD
+0.037,0.113,0.237,0.3,515,sigmoid,tanh,20,constant,0.004,binary_crossentropy,3,0.28,"(727, 842, 162, 46, 1)",sigmoid,SGD
+0.129,0.297,0.126,0.7,290,relu,tanh,20,glorot_normal,0.165,binary_crossentropy,3,0.51,"(308, 680, 1)",sigmoid,SGD
+0.261,0.152,0.187,0.28,968,relu,tanh,20,he_uniform,0.189,binary_crossentropy,3,0.15,"(138, 133, 1)",sigmoid,SGD
+0.124,0.255,0.258,0.61,701,tanh,sigmoid,20,glorot_normal,0.239,binary_crossentropy,3,0.64,"(357, 686, 565, 1)",sigmoid,SGD
+0.151,0.251,0.057,0.88,317,tanh,softmax,20,constant,0.246,binary_crossentropy,3,0.54,"(431, 200, 492, 144, 1)",sigmoid,SGD
+0.005,0.087,0.274,0.73,302,relu,sigmoid,20,glorot_normal,0.277,binary_crossentropy,3,0.2,"(55, 741, 1)",sigmoid,SGD
+0.202,0.059,0.223,0.34,869,relu,sigmoid,20,glorot_normal,0.085,binary_crossentropy,3,0.69,"(863, 483, 1)",sigmoid,SGD
+0.283,0.276,0.216,0.15,869,softmax,relu,20,glorot_uniform,0.063,binary_crossentropy,3,0.73,"(806, 1)",sigmoid,SGD
